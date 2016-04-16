@@ -3,7 +3,7 @@
 class Admin extends CI_Controller{
 
 	var $data;
-	var $rootUrl = "http://112.74.68.197:8000/tm/";
+	var $rootUrl = "http://112.74.68.197:8000/";
 	var $num = 1000;
 	var $totalnum = 0;
     
