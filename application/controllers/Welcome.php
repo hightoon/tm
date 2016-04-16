@@ -48,7 +48,7 @@ class Welcome extends CI_Controller {
         
         	$data['path'] = 'demo';
         	$this->session->set_userdata($data);
-        	header("Location:../../js_cookie_check.html?path=".$data['path']);
+        	header("Location:../../js_cookie_check.php?path=".$data['path']);
    	}
 
     public function demo()
