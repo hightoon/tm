@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://112.74.68.197:8000/tm/';
+$config['base_url'] = 'http://112.74.68.197:8000/';
 
 /*
 |--------------------------------------------------------------------------
