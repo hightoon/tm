@@ -66,6 +66,7 @@ class Welcome extends CI_Controller {
             'allDevices'   => array(
                 array('GPS_lat' => 3015.2,
                       'GPS_long' => 12007.2000,
+                      'device_id' => '温度监测-1',
                       'href' => $this->encrypt->encode('basicinfo/86000300'),
                       'machine_type' => 'realtime',
                       'machine_model' => 'TM8888001',
@@ -73,6 +74,7 @@ class Welcome extends CI_Controller {
                 ),
                 array('GPS_lat' => 3010.2,
                       'GPS_long' => 12000.2000,
+                      'device_id' => '温度监测-2',
                       'href' => $this->encrypt->encode('basicinfo/86000301'),
                       'machine_type' => 'realtime',
                       'machine_model' => 'TM8888001',
@@ -80,6 +82,7 @@ class Welcome extends CI_Controller {
                 ),
                 array('GPS_lat' => 3000.2,
                       'GPS_long' => 12020.2000,
+                      'device_id' => '温度监测-3',
                       'href' => $this->encrypt->encode('basicinfo/86000302'),
                       'machine_type' => 'realtime',
                       'machine_model' => 'TM8888001',
