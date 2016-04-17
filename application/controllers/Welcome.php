@@ -69,8 +69,11 @@ class Welcome extends CI_Controller {
                       'href' => $this->encrypt->encode('basicinfo/86000300'),
                 ),
             ),
-            'onlineDeviceNum' => 0,
-            'allOnlineDevice' => array(0, 'ok'),
+            'onlineDeviceNum' => 1,
+            'allOnlineDevice' => array(
+                'device_id' => '温度监测-1',
+                'href' => 'temp-mon-001'
+            ),
             'alarmNum' => 0,
             'allAlarm' => array(),
             'maintainNum' => 0,
