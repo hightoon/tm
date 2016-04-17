@@ -60,7 +60,7 @@
 													</tr>
 												</thead>
 												<tbody>
-													<?php foreach ($allDevice as $device): ?>
+													<?php foreach ($allDevices as $device): ?>
 													<tr>
 														<td><a href="<?php $tmp=base_url(); echo $tmp.'index.php/'.$admin_dir.'/admin/index/'.$device['href']?>"><?php echo $device['device_id'] ?></a></td>
 														<td><?php echo $device['machine_type'] ?></td>
