@@ -62,12 +62,29 @@ class Welcome extends CI_Controller {
             'zhsz_encrypt' => $this->encrypt->encode('userset'),
             'sbzw_encrypt' => $this->encrypt->encode('setsgroup'),
             'admin_dir'    => $this->session->userdata('path'),
-            'deviceNum'    => 1,
+            'deviceNum'    => 3,
             'allDevices'   => array(
                 array('GPS_lat' => 3015.2,
                       'GPS_long' => 12007.2000,
                       'href' => $this->encrypt->encode('basicinfo/86000300'),
+                      'machine_type' => 'realtime',
+                      'machine_model' => 'TM8888001',
+                      'create_time' => '2016-04-17 12:00:00'
                 ),
+                array('GPS_lat' => 3010.2,
+                      'GPS_long' => 12000.2000,
+                      'href' => $this->encrypt->encode('basicinfo/86000301'),
+                      'machine_type' => 'realtime',
+                      'machine_model' => 'TM8888001',
+                      'create_time' => '2016-04-17 12:00:00'
+                ),
+                array('GPS_lat' => 3000.2,
+                      'GPS_long' => 12020.2000,
+                      'href' => $this->encrypt->encode('basicinfo/86000302'),
+                      'machine_type' => 'realtime',
+                      'machine_model' => 'TM8888001',
+                      'create_time' => '2016-04-17 12:00:00'
+                )
             ),
             'onlineDeviceNum' => 2,
             'allOnlineDevice' => array(
