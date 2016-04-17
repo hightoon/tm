@@ -20,7 +20,7 @@
                     <li><a href="<?php $tmp=base_url(); echo $tmp.'index.php/'.$admin_dir.'/admin/index/'.$zhsz_encrypt?>"><i class="fa fa-gear fa-fw"></i> 账户管理</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="<?php $tmp=base_url(); echo $tmp.'index.php/index/logout'?>"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
+                    <li><a href="<?php $tmp=base_url(); echo $tmp?>"><i class="fa fa-sign-out fa-fw"></i> 退出</a>
                     </li>
                 </ul>
                 <!-- /.dropdown-user -->
