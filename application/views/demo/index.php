@@ -1959,4 +1959,4 @@
 <script language="javascript" type="text/javascript" src="<?php $tmp=base_url(); echo $tmp.'bootstrap/javascript/flot/jquery.flot.crosshair.js'?>"></script>
 
 <!-- Chart JavaScript -->
-<script src="<?php $tmp=base_url(); echo $tmp.'javascript/'.$admin_dir.'/admin.js'?>" charset="utf-8"></script>
+<script src="<?php $tmp=base_url(); echo $tmp.'web/js/'.$admin_dir.'/admin.js'?>" charset="utf-8"></script>
