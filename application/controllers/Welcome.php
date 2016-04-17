@@ -105,7 +105,18 @@ class Welcome extends CI_Controller {
             'maintainNum' => 0,
             'allMaintain' => array(),
             'remarkNum' => 2,
-            'allRemark' => array("温度太高!", "一切正常!"), 
+            'allRemark' => array(
+                array(
+                    'date' => '2016-04-16',
+                    'name' => '提醒',
+                    'remark' => '一切OK'
+                ),
+                array(
+                    'date' => '2016-04-16',
+                    'name' => '设备情况',
+                    'remark' => '所有设备无需维护'
+                ),
+            ), 
         ); 
         $this->load->view('templates/header');
         //$this->load->view($this->data['admin_dir'].'/index.php',$this->data);
