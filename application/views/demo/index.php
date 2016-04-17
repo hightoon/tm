@@ -324,7 +324,7 @@
                         var robos_position = new Array(
                             new Array(-1,-1)
                         <?php
-                        foreach($allDevice as $device){
+                        foreach($allDevices as $device){
                             if($device['GPS_lat'] != null && $device['GPS_long'] != null){
                                 ?>
                                 ,new Array(<?php echo $device['GPS_lat']?>,<?php echo $device['GPS_long']?>)

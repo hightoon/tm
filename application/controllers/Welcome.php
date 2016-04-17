@@ -116,7 +116,15 @@ class Welcome extends CI_Controller {
                     'name' => '设备情况',
                     'remark' => '所有设备无需维护'
                 ),
-            ), 
+            ),
+            'allEqp'  => array(
+                array(
+                    'isOnline' => 'yes',
+                    'href' => 'eqp-0001',
+                    'machine_type' => 'reginal',
+                    'machine_controller' => 'self'
+                ),
+            ),
         ); 
         $this->load->view('templates/header');
         //$this->load->view($this->data['admin_dir'].'/index.php',$this->data);
